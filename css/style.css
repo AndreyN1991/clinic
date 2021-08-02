@@ -19,12 +19,20 @@
 }
 
 .bg-green {
+  background: #00AE84;
+}
+
+.bg-green-ex {
   position: absolute;
   top: 0;
   left: 0;
   width: 100px;
   height: 100%;
   background: #00AE84;
+}
+
+.bg-none {
+  background: none;
 }
 
 .zi-1 {
@@ -62,6 +70,10 @@
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.img-client {
+  width: 135px;
 }
 
 .main-title {
@@ -151,6 +163,10 @@
   color: #6D6D6D;
 }
 
+.cl-white {
+  color: white;
+}
+
 .border-none {
   border: none;
 }
@@ -193,6 +209,10 @@
   padding: 25px;
   font-weight: bold;
   background: linear-gradient(93.44deg, #0E97FB 11.31%, #00AE84 100%);
+}
+
+.arrow-right {
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 991px) {
