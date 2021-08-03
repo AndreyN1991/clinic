@@ -265,6 +265,10 @@
   color: black;
 }
 
+.cl-green {
+  color: #00AE84;
+}
+
 @media screen and (max-width: 991px) {
   .img-back, .img-doctor {
     display: none;
